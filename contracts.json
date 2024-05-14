@@ -1,0 +1,103 @@
+[
+    {
+      "id": "RC001",
+      "machinery_id": "M001",
+      "client_id": "C001",
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-10",
+      "total_rental_cost": 2250,
+      "payment_status": "Paid",
+      "terms_and_conditions": "Standard rental agreement terms apply."
+    },
+    {
+      "id": "RC002",
+      "machinery_id": "M003",
+      "client_id": "C002",
+      "start_date": "2024-04-15",
+      "end_date": "2024-04-30",
+      "total_rental_cost": 6000,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Special discount for long-term rental."
+    },
+    {
+      "id": "RC003",
+      "machinery_id": "M005",
+      "client_id": "C003",
+      "start_date": "2024-05-05",
+      "end_date": "2024-05-15",
+      "total_rental_cost": 2800,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Payment due at the end of the rental period."
+    },
+    {
+      "id": "RC004",
+      "machinery_id": "M007",
+      "client_id": "C004",
+      "start_date": "2024-04-20",
+      "end_date": "2024-04-25",
+      "total_rental_cost": 900,
+      "payment_status": "Paid",
+      "terms_and_conditions": "Additional charges for exceeding rental duration."
+    },
+    {
+      "id": "RC005",
+      "machinery_id": "M009",
+      "client_id": "C005",
+      "start_date": "2024-05-10",
+      "end_date": "2024-05-20",
+      "total_rental_cost": 2200,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Early termination fee applies."
+    },
+    {
+      "id": "RC006",
+      "machinery_id": "M002",
+      "client_id": "C006",
+      "start_date": "2024-05-03",
+      "end_date": "2024-05-08",
+      "total_rental_cost": 1500,
+      "payment_status": "Paid",
+      "terms_and_conditions": "No refunds for unused rental period."
+    },
+    {
+      "id": "RC007",
+      "machinery_id": "M006",
+      "client_id": "C007",
+      "start_date": "2024-05-02",
+      "end_date": "2024-05-12",
+      "total_rental_cost": 3200,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Late return fee applicable."
+    },
+    {
+      "id": "RC008",
+      "machinery_id": "M008",
+      "client_id": "C008",
+      "start_date": "2024-05-07",
+      "end_date": "2024-05-17",
+      "total_rental_cost": 3500,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Security deposit required."
+    },
+    {
+      "id": "RC009",
+      "machinery_id": "M010",
+      "client_id": "C009",
+      "start_date": "2024-05-12",
+      "end_date": "2024-05-22",
+      "total_rental_cost": 5000,
+      "payment_status": "Pending",
+      "terms_and_conditions": "Insurance coverage included."
+    },
+    {
+      "id": "RC010",
+      "machinery_id": "M004",
+      "client_id": "C010",
+      "start_date": "2024-05-06",
+      "end_date": "2024-05-16",
+      "total_rental_cost": 2000,
+      "payment_status": "Pending",
+      "terms_and_conditions": "No liability for damages during use."
+    }
+  ]
+  

@@ -1,0 +1,129 @@
+[
+    {
+      "id": "M001",
+      "name": "Excavator 2000",
+      "type": "Excavator",
+      "model": "ABC-123",
+      "manufacturer": "XYZ Machinery Co.",
+      "year_of_manufacture": 2018,
+      "rental_rate_per_day": 250,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M002",
+      "name": "Bulldozer 3000",
+      "type": "Bulldozer",
+      "model": "DEF-456",
+      "manufacturer": "LMN Construction Equipment",
+      "year_of_manufacture": 2019,
+      "rental_rate_per_day": 300,
+      "status": "Rented",
+      "maintenance_history": [
+        {
+          "maintenance_id": "MA001",
+          "date": "2023-02-15",
+          "description": "Routine maintenance check",
+          "cost": 150,
+          "technician": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "M003",
+      "name": "Crane 500",
+      "type": "Crane",
+      "model": "GHI-789",
+      "manufacturer": "PQR Heavy Industries",
+      "year_of_manufacture": 2020,
+      "rental_rate_per_day": 400,
+      "status": "Under Maintenance",
+      "maintenance_history": [
+        {
+          "maintenance_id": "MA002",
+          "date": "2023-05-20",
+          "description": "Replacing hydraulic hoses",
+          "cost": 500,
+          "technician": "Jane Smith"
+        }
+      ]
+    },
+    {
+      "id": "M004",
+      "name": "Dump Truck 100",
+      "type": "Dump Truck",
+      "model": "JKL-101",
+      "manufacturer": "NOP Trucks Inc.",
+      "year_of_manufacture": 2017,
+      "rental_rate_per_day": 200,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M005",
+      "name": "Backhoe Loader 400",
+      "type": "Backhoe Loader",
+      "model": "MNO-202",
+      "manufacturer": "QRS Heavy Equipment",
+      "year_of_manufacture": 2019,
+      "rental_rate_per_day": 280,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M006",
+      "name": "Skid Steer Loader 600",
+      "type": "Skid Steer Loader",
+      "model": "STU-303",
+      "manufacturer": "VWX Machinery Co.",
+      "year_of_manufacture": 2021,
+      "rental_rate_per_day": 320,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M007",
+      "name": "Forklift 700",
+      "type": "Forklift",
+      "model": "YZA-404",
+      "manufacturer": "BCD Lift Trucks",
+      "year_of_manufacture": 2018,
+      "rental_rate_per_day": 180,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M008",
+      "name": "Compactor 800",
+      "type": "Compactor",
+      "model": "EFG-505",
+      "manufacturer": "HIJ Compaction Systems",
+      "year_of_manufacture": 2020,
+      "rental_rate_per_day": 350,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M009",
+      "name": "Concrete Mixer 900",
+      "type": "Concrete Mixer",
+      "model": "KLM-606",
+      "manufacturer": "NOP Cement Mixers",
+      "year_of_manufacture": 2019,
+      "rental_rate_per_day": 220,
+      "status": "Available",
+      "maintenance_history": []
+    },
+    {
+      "id": "M010",
+      "name": "Tower Crane 1000",
+      "type": "Tower Crane",
+      "model": "OPQ-707",
+      "manufacturer": "RST Cranes Ltd.",
+      "year_of_manufacture": 2022,
+      "rental_rate_per_day": 500,
+      "status": "Available",
+      "maintenance_history": []
+    }
+  ]
+  

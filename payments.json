@@ -1,0 +1,83 @@
+[
+    {
+      "id": "P001",
+      "contract_id": "RC001",
+      "client_id": "C001",
+      "date": "2024-05-10",
+      "amount": 2250,
+      "payment_method": "Credit Card"
+    },
+    {
+      "id": "P002",
+      "contract_id": "RC002",
+      "client_id": "C002",
+      "date": "2024-04-20",
+      "amount": 3000,
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "id": "P003",
+      "contract_id": "RC003",
+      "client_id": "C003",
+      "date": "2024-05-15",
+      "amount": 2800,
+      "payment_method": "Cash"
+    },
+    {
+      "id": "P004",
+      "contract_id": "RC004",
+      "client_id": "C004",
+      "date": "2024-04-25",
+      "amount": 900,
+      "payment_method": "Credit Card"
+    },
+    {
+      "id": "P005",
+      "contract_id": "RC005",
+      "client_id": "C005",
+      "date": "2024-05-20",
+      "amount": 2200,
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "id": "P006",
+      "contract_id": "RC006",
+      "client_id": "C006",
+      "date": "2024-05-08",
+      "amount": 1500,
+      "payment_method": "Credit Card"
+    },
+    {
+      "id": "P007",
+      "contract_id": "RC007",
+      "client_id": "C007",
+      "date": "2024-05-12",
+      "amount": 3200,
+      "payment_method": "Cash"
+    },
+    {
+      "id": "P008",
+      "contract_id": "RC008",
+      "client_id": "C008",
+      "date": "2024-05-17",
+      "amount": 3500,
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "id": "P009",
+      "contract_id": "RC009",
+      "client_id": "C009",
+      "date": "2024-05-22",
+      "amount": 5000,
+      "payment_method": "Credit Card"
+    },
+    {
+      "id": "P010",
+      "contract_id": "RC010",
+      "client_id": "C010",
+      "date": "2024-05-16",
+      "amount": 2000,
+      "payment_method": "Cash"
+    }
+  ]
+  

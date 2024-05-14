@@ -1,0 +1,73 @@
+[
+    {
+      "id": "C001",
+      "name": "ABC Construction Company",
+      "contact_information": "123-456-7890",
+      "company": true,
+      "billing_address": "123 Main Street, City, Country"
+    },
+    {
+      "id": "C002",
+      "name": "XYZ Builders",
+      "contact_information": "987-654-3210",
+      "company": true,
+      "billing_address": "456 Elm Street, City, Country"
+    },
+    {
+      "id": "C003",
+      "name": "John Smith",
+      "contact_information": "555-555-5555",
+      "company": false,
+      "billing_address": "789 Oak Avenue, City, Country"
+    },
+    {
+      "id": "C004",
+      "name": "Jane Doe",
+      "contact_information": "444-444-4444",
+      "company": false,
+      "billing_address": "101 Pine Road, City, Country"
+    },
+    {
+      "id": "C005",
+      "name": "LMN Contractors",
+      "contact_information": "222-222-2222",
+      "company": true,
+      "billing_address": "202 Maple Lane, City, Country"
+    },
+    {
+      "id": "C006",
+      "name": "Samuel Johnson",
+      "contact_information": "333-333-3333",
+      "company": false,
+      "billing_address": "303 Cedar Street, City, Country"
+    },
+    {
+      "id": "C007",
+      "name": "PQR Developers",
+      "contact_information": "666-666-6666",
+      "company": true,
+      "billing_address": "505 Birch Boulevard, City, Country"
+    },
+    {
+      "id": "C008",
+      "name": "Emily Williams",
+      "contact_information": "777-777-7777",
+      "company": false,
+      "billing_address": "707 Walnut Drive, City, Country"
+    },
+    {
+      "id": "C009",
+      "name": "DEF Builders",
+      "contact_information": "888-888-8888",
+      "company": true,
+      "billing_address": "909 Spruce Court, City, Country"
+    },
+    {
+      "id": "C010",
+      "name": "Robert Johnson",
+      "contact_information": "999-999-9999",
+      "company": false,
+      "billing_address": "808 Pineapple Street, City, Country"
+    }
+  ]
+  
