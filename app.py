@@ -1,9 +1,22 @@
 # app.py
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from routers import machinery_router, client_router, contract_router, payment_router
 
+
 app = FastAPI()
+
+# Set up CORS
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Include routers
 app.include_router(machinery_router.router)
