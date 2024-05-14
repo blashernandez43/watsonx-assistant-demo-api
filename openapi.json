@@ -1,0 +1,580 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "FastAPI",
+        "version": "0.1.0"
+    },
+    "servers": [{
+        "url": "http://Mockurl.com"
+    }],
+    "paths": {
+        "/machinery/": {
+            "get": {
+                "tags": [
+                    "Machinery"
+                ],
+                "summary": "Get Machinery",
+                "operationId": "get_machinery_machinery__get",
+                "parameters": [
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "title": "Machinery Type"
+                        }
+                    },
+                    {
+                        "name": "status",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "title": "Machinery Status"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Machinery"
+                                    },
+                                    "title": "Response Get Machinery Machinery Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/machinery/{machinery_id}": {
+            "get": {
+                "tags": [
+                    "Machinery"
+                ],
+                "summary": "Get Machinery By Id",
+                "operationId": "get_machinery_by_id_machinery__machinery_id__get",
+                "parameters": [
+                    {
+                        "name": "machinery_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Machinery Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Machinery"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/clients/": {
+            "get": {
+                "tags": [
+                    "Clients"
+                ],
+                "summary": "Get All Clients",
+                "operationId": "get_all_clients_clients__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Client"
+                                    },
+                                    "title": "Response Get All Clients Clients Get"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/clients/{client_id}": {
+            "get": {
+                "tags": [
+                    "Clients"
+                ],
+                "summary": "Get Client By Id",
+                "operationId": "get_client_by_id_clients__client_id__get",
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Client Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Client"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/contracts/": {
+            "get": {
+                "tags": [
+                    "Contracts"
+                ],
+                "summary": "Get All Contracts",
+                "operationId": "get_all_contracts_contracts__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/RentalContract"
+                                    },
+                                    "title": "Response Get All Contracts Contracts Get"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/contracts/{contract_id}": {
+            "get": {
+                "tags": [
+                    "Contracts"
+                ],
+                "summary": "Get Contract By Id",
+                "operationId": "get_contract_by_id_contracts__contract_id__get",
+                "parameters": [
+                    {
+                        "name": "contract_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Contract Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/RentalContract"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/payments/": {
+            "get": {
+                "tags": [
+                    "Payments"
+                ],
+                "summary": "Get All Payments",
+                "operationId": "get_all_payments_payments__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Payment"
+                                    },
+                                    "title": "Response Get All Payments Payments Get"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/payments/{payment_id}": {
+            "get": {
+                "tags": [
+                    "Payments"
+                ],
+                "summary": "Get Payment By Id",
+                "operationId": "get_payment_by_id_payments__payment_id__get",
+                "parameters": [
+                    {
+                        "name": "payment_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Payment Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Payment"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/": {
+            "get": {
+                "summary": "Index",
+                "operationId": "index__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Client": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "Id"
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "contact_information": {
+                        "type": "string",
+                        "title": "Contact Information"
+                    },
+                    "company": {
+                        "type": "boolean",
+                        "title": "Company"
+                    },
+                    "billing_address": {
+                        "type": "string",
+                        "title": "Billing Address"
+                    }
+                },
+                "required": [
+                    "id",
+                    "name",
+                    "contact_information",
+                    "company",
+                    "billing_address"
+                ],
+                "title": "Client"
+            },
+            "HTTPValidationError": {
+                "type": "object",
+                "properties": {
+                    "detail": {
+                        "type": "array",
+                        "title": "Detail",
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        }
+                    }
+                },
+                "required": [
+                    "detail"
+                ],
+                "title": "HTTPValidationError"
+            },
+            "Machinery": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "Id"
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Type"
+                    },
+                    "model": {
+                        "type": "string",
+                        "title": "Model"
+                    },
+                    "manufacturer": {
+                        "type": "string",
+                        "title": "Manufacturer"
+                    },
+                    "year_of_manufacture": {
+                        "type": "integer",
+                        "title": "Year Of Manufacture"
+                    },
+                    "rental_rate_per_day": {
+                        "type": "number",
+                        "title": "Rental Rate Per Day"
+                    },
+                    "status": {
+                        "type": "string",
+                        "title": "Status"
+                    },
+                    "maintenance_history": {
+                        "type": "array",
+                        "title": "Maintenance History",
+                        "items": {
+                            "$ref": "#/components/schemas/MaintenanceRecord"
+                        },
+                        "default": []
+                    }
+                },
+                "required": [
+                    "id",
+                    "name",
+                    "type",
+                    "model",
+                    "manufacturer",
+                    "year_of_manufacture",
+                    "rental_rate_per_day",
+                    "status"
+                ],
+                "title": "Machinery"
+            },
+            "MaintenanceRecord": {
+                "type": "object",
+                "properties": {
+                    "maintenance_id": {
+                        "type": "string",
+                        "title": "Maintenance Id"
+                    },
+                    "date": {
+                        "type": "string",
+                        "title": "Date"
+                    },
+                    "description": {
+                        "type": "string",
+                        "title": "Description"
+                    },
+                    "cost": {
+                        "type": "number",
+                        "title": "Cost"
+                    },
+                    "technician": {
+                        "type": "string",
+                        "title": "Technician"
+                    }
+                },
+                "required": [
+                    "maintenance_id",
+                    "date",
+                    "description",
+                    "cost",
+                    "technician"
+                ],
+                "title": "MaintenanceRecord"
+            },
+            "Payment": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "Id"
+                    },
+                    "contract_id": {
+                        "type": "string",
+                        "title": "Contract Id"
+                    },
+                    "client_id": {
+                        "type": "string",
+                        "title": "Client Id"
+                    },
+                    "date": {
+                        "type": "string",
+                        "title": "Date"
+                    },
+                    "amount": {
+                        "type": "number",
+                        "title": "Amount"
+                    },
+                    "payment_method": {
+                        "type": "string",
+                        "title": "Payment Method"
+                    }
+                },
+                "required": [
+                    "id",
+                    "contract_id",
+                    "client_id",
+                    "date",
+                    "amount",
+                    "payment_method"
+                ],
+                "title": "Payment"
+            },
+            "RentalContract": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "Id"
+                    },
+                    "machinery_id": {
+                        "type": "string",
+                        "title": "Machinery Id"
+                    },
+                    "client_id": {
+                        "type": "string",
+                        "title": "Client Id"
+                    },
+                    "start_date": {
+                        "type": "string",
+                        "title": "Start Date"
+                    },
+                    "end_date": {
+                        "type": "string",
+                        "title": "End Date"
+                    },
+                    "total_rental_cost": {
+                        "type": "number",
+                        "title": "Total Rental Cost"
+                    },
+                    "payment_status": {
+                        "type": "string",
+                        "title": "Payment Status"
+                    },
+                    "terms_and_conditions": {
+                        "type": "string",
+                        "title": "Terms And Conditions"
+                    }
+                },
+                "required": [
+                    "id",
+                    "machinery_id",
+                    "client_id",
+                    "start_date",
+                    "end_date",
+                    "total_rental_cost",
+                    "payment_status",
+                    "terms_and_conditions"
+                ],
+                "title": "RentalContract"
+            },
+            "ValidationError": {
+                "type": "object",
+                "properties": {
+                    "loc": {
+                        "type": "array",
+                        "title": "Location",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "msg": {
+                        "type": "string",
+                        "title": "Message"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Error Type"
+                    }
+                },
+                "required": [
+                    "loc",
+                    "msg",
+                    "type"
+                ],
+                "title": "ValidationError"
+            }
+        }
+    }
+}
